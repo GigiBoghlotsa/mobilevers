@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.container{
+    width: 375px;
+}
+
+.heading{
+    color: #191826;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
+.box > h1{
+    font-size: 3.2em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    font-family: IBM Plex Sans;
+}
+
+.box1{
+    color: #191826;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: IBM Plex Sans;
+}
+
+.box2{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-color: #191826;
+    margin-top: 60%;
+    border-radius: 10px;
+}
+
+.box2_img{
+    display: flex;
+    justify-content: center;
+}
+
+.box2_img{
+    width: 100%;
+    position: absolute;
+    margin-top: -50%;
+}
+
+.box3{
+    background-color: #FA7453;
+    border-radius: 10px;
+    margin-top: -60%;
+}
+
+.box3_head{
+    size: 32px;
+    padding: 10px;
+    color: #FCFAF9;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.box3_ptag{
+    width: 80%;
+    padding: 10px;
+    color: #FCFAF9;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFAF9;
+    margin-left: -50px;
+}
+
+.month{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+    margin: 48%;
+    margin-top: -8%;
+}
+
+.month{
+color: #FCFAF9;
+font-family: IBM Plex Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+letter-spacing: -0.2px;
+}
+
+.logoios{
+margin: 60px;
+margin-top: -125px;
+}
+
+.imagebutton{
+    display: flex;
+    justify-content: center;
+}
+
+.iosbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 5px;
+    height: 8vh;
+    width: 50vw;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footer_child{
+    padding-left: 5%;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footer_p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+
+.logos{
+    padding: 10px;
+}
